@@ -99,11 +99,10 @@ $(document).ready(function() {
             $players.show();
             $opponent.find('div').remove();
         } else {
-            //Counter attack!
             hero.hp -= opponent.cap;
         }
         if (hero.hp <= 0) {
-            console.log('hero died from counter attack!');
+            console.log('you died from counter attack!');
         }
         hero.exp ++;
 
