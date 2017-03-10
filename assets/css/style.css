@@ -1,0 +1,45 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+	height: 128px;
+	width: 128px;
+	border-radius: 10px;
+}
+
+.main-section-title {
+	border-bottom: 4px solid #F8F6BA;
+	font-size: 49px;
+	text-align: center;
+}
+
+#players {
+	border: 1px dashed #FEFEFE;
+}
+
+#players div {
+	width: 20%;
+	float: left;
+}
+
+#hero, #attack, #opponent {
+	width: 33.33333%;
+	float: left;
+	box-sizing: border-box;
+}
+
+#hero {
+	border: 3px solid green;
+}
+
+#attack button {
+	padding: 20px;
+	margin-left: 50%;
+	margin-top: 50%;
+
+}
+
+#opponent {
+	border: 3px solid red;
+}
